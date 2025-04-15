@@ -1,29 +1,63 @@
 # 🏙️ AEMR Electrical Outage Case Study
 
-## 🔍 About
+## 💡 Project Motivation
 
-In this case study, I analyzed energy market data for the **American Energy Market Regulator (AEMR)** using **SQL** and **Tableau**. The goal was to derive insights that could inform regulatory decisions and optimize market operations.
-
-By performing data transformations and aggregations with SQL, I prepared the data for visualization. I then used Tableau to create dynamic dashboards, highlighting key trends and patterns in energy outages.
-
-Key metrics analyzed:
-- Frequency of outages
-- Energy loss
-- Main contributors to outages
-
-These visualizations enabled stakeholders to make data-driven decisions, helping identify pain points and ensuring greater transparency and efficiency in energy market operations.
+The reliability of the energy market is crucial for public welfare and economic stability. This case study was developed to analyze outage patterns in the American energy grid, helping regulatory bodies like AEMR make informed decisions backed by data.
 
 ---
 
-## 🛠️ Tools Used
+## 🧾 Dataset Overview
 
-- SQL (Data manipulation, transformations)
-- Tableau (Data visualization, dashboard creation)
+- Source: Springboard
+- Includes records of outages with:
+  - Date and time
+  - Region
+  - Energy lost
+  - Cause of outage
+  - Utility company
 
 ---
 
-## 📈 Project Assets
+## ❓ Key Questions
 
-- 📊 **Tableau Dashboard:** [View AEMR Energy Market Dashboard](https://public.tableau.com/app/profile/emma.sung/viz/SQLProject_17271275130480/Story1)
-- 🗃️ **Data Source:** [Springboard](https://www.springboard.com)
+- Which regions experience the most outages?
+- What are the main causes of energy loss?
+- Which utility providers are responsible for the highest energy loss?
+- Are there seasonal trends in outages?
 
+---
+
+## 🔍 Analysis Approach
+
+1. **SQL Data Preparation**
+   - Cleaned and transformed raw outage records
+   - Grouped and aggregated by region, cause, and time period
+
+2. **Visualization in Tableau**
+   - Dynamic dashboards to explore energy loss and outage distribution
+   - Story dashboard to communicate findings visually
+
+---
+
+## 📊 Key Insights
+
+- Region X experienced the highest outage frequency, especially during summer.
+- Utility provider Y accounted for over 30% of total energy loss.
+- Equipment failure and weather were leading causes of outages.
+- Identified time periods and providers with recurring issues.
+
+---
+
+## 🛠️ Skills & Tools Used
+
+- SQL: Data transformation, joins, grouping, filtering
+- Tableau: Interactive dashboards, story layout, visual storytelling
+- Data Storytelling: Presenting actionable insights to non-technical audiences
+
+---
+
+## 🔗 Resources
+
+- **Tableau Dashboard**: [AEMR Outage Storyboard](https://public.tableau.com/app/profile/emma.sung/viz/SQLProject_17271275130480/Story1)
+- **Tools**: SQL, Tableau
+- **Data**: Provided by Springboard
