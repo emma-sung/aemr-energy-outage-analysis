@@ -39,12 +39,18 @@ The reliability of the energy market is crucial for public welfare and economic 
 
 ---
 
-## 📊 Key Insights
+## 🧾 Summary & Recommendations
 
-- Region X experienced the highest outage frequency, especially during summer.
-- Utility provider Y accounted for over 30% of total energy loss.
-- Equipment failure and weather were leading causes of outages.
-- Identified time periods and providers with recurring issues.
+- **Most Frequent Outage Type:** Forced outages were the most common across both years.
+- **Seasonal Trends:** Jun-Aug and Oct-Nov experienced spikes in forced outages.
+- **Reliability Issues:** GW, AURICON, and MELK experienced significantly more outages than others.
+
+---
+
+## 📌 Recommendations:
+- Investigate operational practices of providers with high outage rates.
+- Explore preventative maintenance strategies to reduce forced outages.
+- Prioritize investments in grid stability for high-outage regions.
 
 ---
 
